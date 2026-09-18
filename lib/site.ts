@@ -35,9 +35,9 @@ export type Artwork = {
 
 export const artworks: Artwork[] = [
   // Paintings
-  { id: "01", title: "Morning Interval", year: "2024", medium: "Oil on linen", category: "Paintings", span: "tall" },
-  { id: "02", title: "Untitled (Field)", year: "2024", medium: "Oil on linen", category: "Paintings", span: "regular" },
-  { id: "03", title: "Threshold", year: "2023", medium: "Oil on panel", category: "Paintings", span: "wide" },
+  { id: "01", title: "Morning Interval", year: "2024", medium: "Oil on linen", category: "Paintings", span: "tall", src: "/image_01.jpg" },
+  { id: "02", title: "Untitled (Field)", year: "2024", medium: "Oil on linen", category: "Paintings", span: "regular", src: "/image_02.jpg" },
+  { id: "03", title: "Threshold", year: "2023", medium: "Oil on panel", category: "Paintings", span: "wide", src: "/image_03.jpg" },
   { id: "04", title: "Late Room", year: "2022", medium: "Oil on linen", category: "Paintings", span: "regular" },
   { id: "05", title: "Interior, Noon", year: "2021", medium: "Oil on panel", category: "Paintings", span: "regular" },
   { id: "06", title: "Slow Tide", year: "2021", medium: "Oil on linen", category: "Paintings", span: "tall" },
