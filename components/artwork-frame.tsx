@@ -19,7 +19,7 @@ export function ArtworkFrame({
       {artwork.src ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          src={artwork.src || "/image_01.jpg"}
+          src={"/image_01.jpg"}
           alt={`${artwork.title}, ${artwork.year}`}
           className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
         />
